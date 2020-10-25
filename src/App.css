@@ -1,0 +1,87 @@
+.App-header {
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  padding: 5px;
+  margin-top: auto;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.card-subtitle {
+  text-align: center !important;
+}
+
+.card {
+  width: 280px !important;
+  margin-left: 15px;
+  margin: 11px;
+}
+
+Button {
+  margin: 5px 10px !important;
+}
+
+.btn-secondary {
+  background-color: yellowgreen !important;
+}
+
+Button:focus {
+  background: #476902 !important;
+}
+
+.card-subtitle {
+  font-size: small;
+  margin-top: 0.625rem !important;
+}
+
+hr {
+  margin-top: 5px !important;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding-left: 16px;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  flex-wrap: nowrap !important;
+}
+
+.card-title {
+  font-weight: bold;
+  color: darkblue;
+}
+
+ul {
+  font-size: small;
+}
+
+@media (min-width: 200px) {
+  .card-group {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+
+.spinner-grow {
+  position: absolute !important;
+  margin-left: 48% !important;
+  padding: 57px !important;
+  z-index: 2 !important;
+}
+
+.text-danger {
+  margin-top: 15%;
+}
